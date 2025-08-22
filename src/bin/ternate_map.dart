@@ -9,7 +9,7 @@ void main() {
     print("3. Lihat event budaya");
     print("4. Keluar");
 
-    stdout.write("Pilih menu: ");
+    stdout.write("Masukkan pilihan: ");
     String? pilihan = stdin.readLineSync();
 
     if (pilihan == "1") {
