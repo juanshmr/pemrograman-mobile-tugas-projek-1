@@ -18,7 +18,7 @@ void main() {
   stdout.write("Status Karyawan (true = Tetap, false = Kontrak) : ");
   bool status_kar = stdin.readLineSync()! == 'true';
 
-  double gaji_kotor = (jam_kerja * upah_per_jam); //hitung gaji kotor
+  double gaji_kotor = (jam_kerja * upah_per_jam); //gaji kotor
 
   //hitung pajak 10% untuk kryawan tetap(true), 5% untuk karyawan kontrak(false)
   double pajak = status_kar ? gaji_kotor * 0.1 : gaji_kotor * 0.05;
