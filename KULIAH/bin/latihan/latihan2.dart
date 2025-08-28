@@ -1,5 +1,3 @@
-import 'dart:io';
-
 void main() {
   double panjang = 10;
   double lebar = 5;

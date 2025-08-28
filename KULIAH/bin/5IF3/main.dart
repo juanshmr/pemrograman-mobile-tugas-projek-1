@@ -1,5 +1,3 @@
-import 'dart:io';
-
 void main() {
   var nama = "Ajuwan Sahmir";
   int usia = 900; // b.bulat
